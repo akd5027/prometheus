@@ -3,7 +3,7 @@
 ## Building
 You'll need to prepare the subrepository _prometheus-cpp_ and will need to
 follow up by performing the necessary steps as indicated by its repository,
-located at [prometheus-cpp|https://github.com/jupp0r/prometheus-cpp].  
+located at [prometheus-cpp](https://github.com/jupp0r/prometheus-cpp).  
 
 You'll need to perform the following:
 ```bash
