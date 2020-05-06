@@ -1,0 +1,17 @@
+name: Prometheus Docker Image
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Builds the docker image
+      run: docker build . --file Dockerfile --tag Prometheus:$(date +%s)
